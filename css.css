@@ -1,0 +1,88 @@
+/* Style général pour le corps de la page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Style pour le titre principal */
+h1 {
+    text
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+    padding-left: 550px;
+    font-size: 50px;
+    font-family: Arial;
+    text-transform: uppercase;
+    border-bottom: 3px solid blue;
+    padding-bottom: 50px;
+}
+
+/* Style pour les intertitres */
+h2 {
+    color: orange;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    border-left: 4px solid red;
+    padding-left: 10px;
+}
+
+h3 {
+    text
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+    padding-left: 650px;
+    font-size: 50px;
+    font-family: Arial;
+    text-transform: uppercase;
+    border-top: 3px solid blue;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+/* Style pour les liens */
+a {
+    color: lime;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00796B;
+}
+
+/* Style pour les images */
+img {
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+}
+
+bouton {
+    border: 10px white;
+}
+}
+/* Style pour les lignes brisées avec <br> */
+br {
+
+br {
+margin-bottom: 20px;
+}
+
+#rick {
+width : 200px;
+position: absolute; left: 10%; top:20%;
+
+}
+}
+``
