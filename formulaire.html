@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>
+		La Machine de Turing et les Portes Logiques
+		</title>
+		<meta charset="utf-8">
+
+		<!-- Lien vers le fichier CSS -->
+
+    		<link rel="stylesheet" href="css.css">
+	</head>
+	<body>
+
+	<!-- Commande pour gérer l'audio  -->
+
+		<audio class="audio" controls loop>
+  <source src="techno-minimal-235054.mp3" type="audio/mpeg">
+</audio>
+
+	<!-- Commande pour gérer les texte  -->
+
+		<h1> La Machine de Turing et les Portes Logiques </h1>
+		<br><h2>Machine de Turing : Abstraction Théorique</h2>
+		Une machine de Turing comprend :
+
+		<br>Une bande infinie divisée en cases, où chaque case peut contenir un symbole.
+		<br>Une tête de lecture/écriture qui peut se déplacer sur la bande, lire le symbole, et écrire un nouveau symbole.
+		<br>Un ensemble d'états qui définissent ce que la machine fait lorsqu'elle rencontre un symbole spécifique.
+		<br>La machine de Turing est utilisée pour définir ce qui est calculable. Elle peut simuler tout algorithme, ce qui en fait un modèle universel de calcul.
+		<br><h2> Portes Logiques  </h2>
+		<br>Les portes logiques (ET, OU, NON, XOR, etc.) sont les blocs de base qui composent les circuits intégrés dans les ordinateurs.
+		<br>Elles manipulent des signaux binaires (0 et 1) pour réaliser des opérations logiques.
+
+		<br>Par exemple :
+
+		<br>Une porte ET donne 1 si et seulement si toutes ses entrées sont 1.
+		<br>Une porte OU donne 1 si au moins une de ses entrées est 1.
+		<br>Ces portes sont combinées pour créer des circuits plus complexes comme des additionneurs, des multiplexeurs, ou des mémoires.
+		<br> <a href="https://fr.wikipedia.org/wiki/Porte_logique" title="Wikipedia des portes logiques " target="_blank">Wikipedia</a>
+		<form class="moyen"></form>
+
+	<!-- Commande pour gérer la porte logique -->
+
+	<p > <strong> Cet outil calcule le résultat des portes logiques </strong> </p >
+	<form Name='Form'>
+	<div >
+	<label for="binaire_1"> Premier nombre binaire :</label>
+	<input type="number" name="nombre" id="binaire_1" min="0" max="1" step="1" />
+	</div>
+	<div>
+	<label for="binaire_2"> Deuxieme nombre binaire :</label>
+	<input type="number" name="nombre" id="binaire_2" min="0" max="1" step="1" />
+
+	</div>
+	<div>
+	<select name="select" id="porte">
+	<option>ET</option>
+	<option>OU</option>
+	<option>NON ET</option>
+	<option>NON OU</option>
+	</select>
+	</div>
+	<div>
+	<input type="button" id="bt" value="Calculer" onclick="calcul()">
+	</div>
+	<div>
+	<p id="resultat"></p>
+	</div>
+	</form>
+		<br><h2>Le Lien entre Machine de Turing et Portes Logiques</h2>
+		<br>La connexion entre ces deux concepts réside dans la manière dont les ordinateurs implémentent le calcul :
+
+		<br>a. Modèle abstrait vers matériel concret
+		<br>Une machine de Turing définit des calculs en termes de règles abstraites sur une bande.
+		<br>Ces calculs peuvent être traduits en circuits logiques combinant des portes logiques.
+		<br>Par exemple, une opération d'addition réalisée par une machine de Turing peut être convertie en un circuit adder construit avec des portes logiques.
+		<br>b. Construction d'un ordinateur à partir de portes logiques
+		<br>Les ordinateurs modernes peuvent être vus comme des "machines de Turing physiques". Ils utilisent des processeurs, des mémoires, et des dispositifs de stockage pour simuler le modèle théorique.
+		<br>Ces processeurs sont construits à partir de millions de portes logiques organisées en circuits pour effectuer les opérations nécessaires.
+		<br>c. Universalité
+		<br>Une machine de Turing peut simuler toute porte logique. Par exemple :
+		<br>Une machine de Turing peut simuler une porte ET en suivant des règles comme : si les deux entrées sont 1, écrire 1 ; sinon, écrire 0.
+		<br>Réciproquement, un circuit logique bien conçu peut simuler une machine de Turing (en pratique, c'est ce qu'un ordinateur fait).
+
+		<br><h2>Équivalence en termes de calculabilité</h2>
+		<br>Les deux concepts sont équivalents en puissance de calcul :
+
+		<br>Une machine de Turing est un modèle théorique universel de calcul.
+		<br>Un ordinateur basé sur des portes logiques peut effectuer tous les calculs définis par une machine de Turing, car il est équivalent à une machine de Turing universelle.
+
+		<h2>Résumé du lien</h2>
+		<br>La machine de Turing est un modèle abstrait pour comprendre le calcul.
+		<br>Les portes logiques sont les briques matérielles qui permettent de construire des circuits capables d'effectuer ces calculs.
+		<br>Ensemble, ils forment la base théorique (machine de Turing) et pratique (portes logiques) de l'informatique moderne.
+		<form class="grand"></form>
+
+	<!-- Commande pour gérer les bouton -->
+
+	<form action="troll.html" method="get">
+<button class="troll" type="submit">$</button>
+  </form>
+<form class="grand"></form>
+
+		<h3> SOURCE </h3>
+		<form action="page_transition.html" method="get">
+<button class="createur" type="submit">Créateurs
+<br><ul>
+  <li>Ethan.P</li>
+  <li>Nolan</li>
+  <li>Ethan.G</li>
+</ul>
+</button>
+  </form>
+
+	<!-- Commande pour liée le code au JavaScript -->
+	<script src=test.js></script>
+	</body>
+
+</html>
